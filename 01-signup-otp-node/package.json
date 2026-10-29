@@ -5,7 +5,7 @@
   "description": "A sign-up flow with SMS verification, tested end to end with a real NumberOTP number.",
   "scripts": {
     "start": "node src/server.js",
-    "test": "node --test test/",
+    "test": "node --test test/*.test.js",
     "test:e2e": "playwright test"
   },
   "dependencies": {
