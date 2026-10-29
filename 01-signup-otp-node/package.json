@@ -1,0 +1,21 @@
+{
+  "name": "numberotp-example-signup-otp",
+  "private": true,
+  "type": "module",
+  "description": "A sign-up flow with SMS verification, tested end to end with a real NumberOTP number.",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "numberotp": "^0.1.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
